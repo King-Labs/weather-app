@@ -1,0 +1,70 @@
+/* إعدادات عامة */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(135deg, #87cefa, #1e90ff);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* عنوان التطبيق */
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+/* الحقل وزر الإدخال */
+.input-section {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1em;
+}
+
+button {
+  padding: 10px 15px;
+  background: #ffa500;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #ff4500;
+}
+
+/* عرض معلومات الطقس */
+.weather-info {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+.hidden {
+  display: none;
+}
